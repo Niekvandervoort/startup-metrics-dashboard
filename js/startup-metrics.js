@@ -21,9 +21,9 @@ var salebellwait = 3000;
 var startupmetrics = JSON.parse(PUBNUB.db.get(settings.channel)) || {
 
     // Whitelable
-    title            : "Startup",
-    subtitle         : "I'M SO FANCY",
-    logo_img         : "img/pubnub.png",
+    title            : "LastMason",
+    subtitle         : "metrics",
+    logo_img         : "http://www.lastmason.com/_/rsrc/1409839669400/LastMason_Logo.png?height=25px",
 
     // Vanity Labels
     vanity_one       : 'MENTIONS',
